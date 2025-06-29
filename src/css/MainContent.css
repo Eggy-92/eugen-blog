@@ -5,7 +5,7 @@
   text-align: center;
   z-index: 1;
   background-color: #dddfe2;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* Remove background-image, background-size, etc. from here */
 }
 
@@ -42,7 +42,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(80,80,80,0.12);
   background: linear-gradient(120deg, #fff, #f7f7fa 80%);
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.15rem;
   padding: 1.2rem 1.5rem;
   margin: 1.5rem auto;
@@ -56,6 +56,10 @@
 }
 
 @media (max-width: 900px) {
+  .main-content,
+  .paragraph {
+    font-size: 170%;
+  }
   .main-content::before {
     background-image: none;
     background-color: #c4c4ca; /* light grey */
