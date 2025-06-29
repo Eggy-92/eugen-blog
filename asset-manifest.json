@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eugen-blog/static/css/main.ed4cb06b.css",
+    "main.css": "/eugen-blog/static/css/main.eb7cca2a.css",
     "main.js": "/eugen-blog/static/js/main.3d49c281.js",
     "static/media/cat.jpg": "/eugen-blog/static/media/cat.ced99be80c8564143a29.jpg",
     "static/media/sensors.jpg": "/eugen-blog/static/media/sensors.7781ce39730724ec246c.jpg",
@@ -19,11 +19,11 @@
     "static/media/header.jpg": "/eugen-blog/static/media/header.5944bbff76e9d5bfef60.jpg",
     "static/media/7.jpg": "/eugen-blog/static/media/7.e89420af53099f401657.jpg",
     "index.html": "/eugen-blog/index.html",
-    "main.ed4cb06b.css.map": "/eugen-blog/static/css/main.ed4cb06b.css.map",
+    "main.eb7cca2a.css.map": "/eugen-blog/static/css/main.eb7cca2a.css.map",
     "main.3d49c281.js.map": "/eugen-blog/static/js/main.3d49c281.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed4cb06b.css",
+    "static/css/main.eb7cca2a.css",
     "static/js/main.3d49c281.js"
   ]
 }
