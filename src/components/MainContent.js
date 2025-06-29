@@ -76,7 +76,7 @@ function MainContent() {
       <p className="paragraph">Iată și primele rezultate ale muncii! :)</p>
       {/* <img src={require('../assets/images/12.jpg')} alt="Rezultate" className="image-content" /> */}
 
-      <Link to="/technical">Informații Tehnice</Link>
+      <Link to="/technical" className='technical-link'>Informații Tehnice</Link>
     </main>
   );
 }
