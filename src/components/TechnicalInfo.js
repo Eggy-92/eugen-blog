@@ -20,7 +20,7 @@ Codul afișează în serial atât valorile citite, cât și răspunsurile server
         <p className="paragraph">Acest cod definește un consumator Kafka care se conectează la un cluster Kafka specificat și ascultă topicul sensor_data. La fiecare mesaj primit, acesta decodifică payload-ul JSON, extrage timestamp-ul și valorile de umiditate pentru fiecare senzor, apoi le afișează în consolă. De asemenea, codul gestionează reconectarea automată la brokerul Kafka în caz de deconectare. Astfel, permite monitorizarea continuă a datelor de la senzori într-un mod eficient și scalabil.</p>
       <img src={require('../assets/images/cod/linechart.jpg')} alt="Solul la început" className="image-content" />
         <p className="paragraph">Aceasta este o reprezentare grafică de tip linie care ilustrează variațiile umidității măsurate la fiecare oră.</p>
-      <Link to="/eugen-blog">Despre Proiect</Link>
+      <Link to="/eugen-blog">Inapoi la Pagina de Start</Link>
     </main>
   );
 }
