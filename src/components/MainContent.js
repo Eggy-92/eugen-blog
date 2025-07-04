@@ -9,9 +9,14 @@ function MainContent() {
     <main className='main-content'>
       <h2>Salutare tuturor!</h2>
       <p className="paragraph">
-        Vreau să aduc în atenția voastră ultimul proiect la care am lucrat. Este vorba despre un sistem care monitorizează umiditatea solului în trei zone adiacente, unde am plantat ardei, roșii și castraveți. 
-        Ideea mi-a venit după ce am reluat legătura cu un coleg din școală — <a href="https://www.youtube.com/watch?v=xpGFJZjnEOw" target="_blank" rel="noopener noreferrer">Nicu</a>. El are un proiect similar, pe care îl puteti vizita facand click. Revenind la grădina noastră, acest proiect, pe lângă munca manuală — pregătirea solului, plantarea puieților, plasarea cablurilor cu senzori și pompe — are și o componentă tehnică. Aceasta presupune programarea unui microcontroller, care coordonează activitatea pompelor, recepționează datele la fiecare 3 secunde și le transmite către laptopul personal. Toate aceste detalii tehnice le voi prezenta spre final, pentru cei interesați.
-      </p>
+        Vreau să aduc în atenția voastră ultimul proiect la care am lucrat. Este vorba despre un sistem care monitorizează umiditatea solului în trei zone adiacente, unde am plantat ardei, roșii și castraveți.
+Ideea mi-a venit după ce am reluat legătura cu un coleg din școală — <a href="https://www.youtube.com/watch?v=xpGFJZjnEOw" target="_blank" rel="noopener noreferrer">Nicu</a>. El are un proiect similar, pe care îl puteți vizita făcând click.
+
+Revenind la grădina noastră, acest proiect, pe lângă munca manuală — pregătirea solului, plantarea puieților, plasarea cablurilor cu senzori și pompe — are și o componentă tehnică. Aceasta presupune programarea unui microcontroller, care coordonează activitatea pompelor, recepționează datele la fiecare 3 secunde și le transmite către laptopul personal.
+
+Mai mult decât atât, proiectul integrează analiza datelor și construirea unui data pipeline complet — de la senzori, prin microcontroller și rețea, până la un server local pe laptop, unde datele sunt salvate și procesate. Ulterior, acestea sunt vizualizate și analizate în Power BI, oferind o imagine clară și dinamică a stării solului în timp real.
+
+Toate aceste detalii tehnice le voi prezenta spre final, pentru cei interesați.</p>
 
       <p className="paragraph">Iată cum arăta solul în momentele de început.</p>
       <img src={require('../assets/images/crop.jpg')} alt="Solul la început" className="image-content" />
