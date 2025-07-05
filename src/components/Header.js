@@ -13,7 +13,7 @@ function Header() {
   return (
     <header className="header-bg">
       <h1>Eugen Project Posts</h1>
-      <div style={{ marginTop: '1rem' }}>
+      <div style={{ marginTop: '1rem', display: 'flex', gap: '0.5rem', justifyContent: 'center' }}>
         <button onClick={() => changeLanguage('ro')}>Română</button>
         <button onClick={() => changeLanguage('en')}>English</button>
         <button onClick={() => changeLanguage('ru')}>Русский</button>
