@@ -1,0 +1,25 @@
+{
+  "greeting": "Salutare tuturor!",
+  "project_intro": "Ideea mi-a venit după ce am reluat legătura cu un coleg din școală — <a href=\"https://www.youtube.com/watch?v=xpGFJZjnEOw\" target=\"_blank\" rel=\"noopener noreferrer\">Nicu</a>. El are un proiect similar, pe care îl puteți vizita făcând click. Revenind la grădina noastră, acest proiect, pe lângă munca manuală — pregătirea solului, plantarea puieților, plasarea cablurilor cu senzori și pompe — are și o componentă tehnică. Aceasta presupune programarea unui microcontroller, care coordonează activitatea pompelor, recepționează datele la fiecare 3 secunde și le transmite către laptopul personal. Mai mult decât atât, proiectul integrează analiza datelor și construirea unui data pipeline complet — de la senzori, prin microcontroller și rețea, până la un server local pe laptop, unde datele sunt salvate și procesate. Ulterior, acestea sunt vizualizate și analizate în Power BI, oferind o imagine clară și dinamică a stării solului în timp real. Toate aceste detalii tehnice le voi prezenta spre final, pentru cei interesați.",
+  "initial": "Iată cum arăta solul în momentele de început.",
+  "soil_condition": "Am ales această parte din grădină deoarece, din experiențele anterioare de îngrijire, am observat că se usucă cel mai repede — posibil din cauza lipsei umbrei și/sau a drenajului slab al solului.",
+  "plants": "Am plantat în total 18 puieți: 3 ardei iuți, 6 plante de roșii, 4 castraveti și 5 plante de ardei capia. Nu sunt neapărat așezați în rânduri, pentru că am vrut doar să acopăr zona centrală a grădinii.",
+  "components1": "Să trecem la revizuirea componentelor utilizate în acest scop.",
+  "microcontroller": "ESP32 este un microcontroller puternic și versatil, ideal pentru proiecte IoT. Dispune de Wi-Fi și Bluetooth integrate, multiple pini GPIO, suport pentru senzori și module externe, fiind perfect pentru automatizarea și monitorizarea inteligentă a grădinii.",
+  "sensors": "Senzorii capacitive de umiditate măsoară nivelul de apă din sol fără a coroda senzorul, oferind o citire precisă și stabilă. Trei astfel de senzori pot fi amplasați în diferite zone ale grădinii pentru a monitoriza uniform umiditatea solului și a optimiza irigația, economisind apă și menținând plantele sănătoase.",
+  "pumps": "Pompe submersibile mici 3-6V sunt ideale pentru sisteme compacte de irigație sau circulație a apei în grădină. Aceste pompe electrice funcționează la tensiuni joase și pot livra un debit de aproximativ 3.7 litri pe minut, fiind eficiente pentru alimentarea cu apă a zonelor mici sau medii, fără consum mare de energie.",
+  "components2": ">Cabluri, plăci de conectare și plăci de prototipare.",
+  "connected": "Așa arată componentele conectate la controller",
+  "function": "Componentele în funcțiune.",
+  "results": "Iată și primele rezultate ale muncii! :)",
+  "tech_data": "Informații Tehnice",
+  "codesp": "Aici voi posta codul unde veti puitea vedea in detaliu tehnologiile folosite.",
+  "general": "Codul din fisierul esp.py citește valorile de la trei senzori de umiditate conectați la ESP32 și controlează automat trei pompe în funcție de nivelul de umiditate măsurat. Valorile brute și procentuale ale umidității sunt calculate pentru fiecare senzor folosind o funcție de mapare calibrată. La fiecare 5 secunde, datele colectate sunt trimise sub formă de payload JSON către un server specificat printr-o cerere HTTP POST. Conexiunea la rețeaua Wi-Fi este gestionată automat, iar dacă ESP32 se deconectează, acesta încearcă să se reconecteze. Codul afișează în serial atât valorile citite, cât și răspunsurile serverului pentru monitorizare și depanare.",
+  "fastapi": "Acest cod definește un server FastAPI care primește date de la senzori prin endpoint-ul /data folosind metoda POST. La fiecare cerere primită, serverul adaugă un timestamp UTC curent la date, afișează payload-ul în consolă și trimite datele către un topic Kafka numit sensor_data. Serverul permite cereri din orice origine (CORS) și rulează pe portul 5050. Astfel, codul funcționează ca un gateway între dispozitivele IoT și infrastructura Kafka pentru colectarea și procesarea ulterioară a datelor.",
+  "kafka_consumer": "Acest cod definește un consumator Kafka care se conectează la un cluster Kafka specificat și ascultă topicul sensor_data. La fiecare mesaj primit, acesta decodifică payload-ul JSON, extrage timestamp-ul și valorile de umiditate pentru fiecare senzor, apoi le afișează în consolă. De asemenea, codul gestionează reconectarea automată la brokerul Kafka în caz de deconectare. Astfel, permite monitorizarea continuă a datelor de la senzori într-un mod eficient și scalabil.",
+  "startpage": "Inapoi la Pagina de Start"
+
+}
+
+
+

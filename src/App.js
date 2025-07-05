@@ -4,7 +4,7 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import TechnicalInfo from './components/TechnicalInfo';
 import Footer from './components/Footer';
-
+import './i18n';
 function App() {
   return (
     <Router>
