@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eugen-blog/static/css/main.e2a53526.css",
-    "main.js": "/eugen-blog/static/js/main.f30d6033.js",
-    "static/media/cat.jpg": "/eugen-blog/static/media/cat.ced99be80c8564143a29.jpg",
-    "static/media/sensors.jpg": "/eugen-blog/static/media/sensors.7781ce39730724ec246c.jpg",
-    "static/media/pumps.jpg": "/eugen-blog/static/media/pumps.43ce7eda541b166306a2.jpg",
-    "static/media/prototype.jpg": "/eugen-blog/static/media/prototype.931fa12335979446f904.jpg",
-    "static/media/pepper.jpg": "/eugen-blog/static/media/pepper.68a51c15de7e09ef3d76.jpg",
-    "static/media/crop.jpg": "/eugen-blog/static/media/crop.0994f0a70d4eb1c41bc2.jpg",
-    "static/media/board.jpg": "/eugen-blog/static/media/board.df12e791e3a92d28e11e.jpg",
-    "static/media/board2.jpg": "/eugen-blog/static/media/board2.de6deeb910c7a45c7ebf.jpg",
+    "main.js": "/eugen-blog/static/js/main.486ad9f5.js",
+    "static/media/cat.jpg": "/eugen-blog/static/media/cat.99938dba4435084b4dec.jpg",
+    "static/media/sensors.jpg": "/eugen-blog/static/media/sensors.f8bcc88d7b77f4a0d4be.jpg",
+    "static/media/pumps.jpg": "/eugen-blog/static/media/pumps.4a0310e7d7a944fc3162.jpg",
+    "static/media/prototype.jpg": "/eugen-blog/static/media/prototype.8a0ee3a4a88935c562de.jpg",
+    "static/media/pepper.jpg": "/eugen-blog/static/media/pepper.f6fe99502e1a6271eddf.jpg",
+    "static/media/board.jpg": "/eugen-blog/static/media/board.43394398c6669e79d4f3.jpg",
+    "static/media/crop.jpg": "/eugen-blog/static/media/crop.5800c97bea553bc42a95.jpg",
+    "static/media/board2.jpg": "/eugen-blog/static/media/board2.ef30b240e049e0a47e9d.jpg",
     "static/media/esp.jpg": "/eugen-blog/static/media/esp.b049ab88ad2b91879ca9.jpg",
     "static/media/kafka_cons.jpg": "/eugen-blog/static/media/kafka_cons.4f6b360fe3c75cadc5f8.jpg",
     "static/media/footer.jpg": "/eugen-blog/static/media/footer.a98a52f4fd5d9d590e01.jpg",
@@ -20,10 +20,10 @@
     "static/media/7.jpg": "/eugen-blog/static/media/7.e89420af53099f401657.jpg",
     "index.html": "/eugen-blog/index.html",
     "main.e2a53526.css.map": "/eugen-blog/static/css/main.e2a53526.css.map",
-    "main.f30d6033.js.map": "/eugen-blog/static/js/main.f30d6033.js.map"
+    "main.486ad9f5.js.map": "/eugen-blog/static/js/main.486ad9f5.js.map"
   },
   "entrypoints": [
     "static/css/main.e2a53526.css",
-    "static/js/main.f30d6033.js"
+    "static/js/main.486ad9f5.js"
   ]
 }
